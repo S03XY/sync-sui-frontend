@@ -1,0 +1,46 @@
+{
+  "name": "xblendsync",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@mysten/sui.js": "^0.44.0",
+    "@reduxjs/toolkit": "^1.9.5",
+    "@solana/wallet-adapter-base": "^0.9.23",
+    "@solana/wallet-adapter-react": "^0.15.35",
+    "@solana/wallet-adapter-react-ui": "^0.9.34",
+    "@solana/wallet-adapter-wallets": "^0.19.21",
+    "@solana/web3.js": "^1.78.5",
+    "@suiet/wallet-kit": "^0.2.19",
+    "@types/node": "20.5.9",
+    "@types/react": "18.2.21",
+    "@types/react-dom": "18.2.7",
+    "autoprefixer": "10.4.15",
+    "encoding": "^0.1.13",
+    "eslint": "8.48.0",
+    "eslint-config-next": "13.4.19",
+    "lodash": "^4.17.21",
+    "lokijs": "^1.5.12",
+    "next": "13.4.19",
+    "pino-pretty": "^10.2.0",
+    "postcss": "8.4.29",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-redux": "^8.1.2",
+    "react-toastify": "8.0.0",
+    "redux": "^4.2.1",
+    "socket.io-client": "^4.7.2",
+    "swr": "^2.2.2",
+    "tailwind-merge": "^1.14.0",
+    "tailwindcss": "3.3.3",
+    "typescript": "5.2.2"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.198"
+  }
+}
